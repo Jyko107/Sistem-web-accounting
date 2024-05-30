@@ -1,9 +1,11 @@
 import streamlit as st
 import requests
 from PIL import Image
+from time import sleep
+from navigation import make_sidebar
 
 
-st.set_page_config(page_title="Sistem Informasi Soto Mie Bogor", page_icon=":🍲:", layout="wide")
+
 
 user = "admin"
 passw = "admin"
@@ -18,6 +20,7 @@ def login():
     if st.button("Login"):
         if username == user and password == passw :
             st.session_state["logged_in"] = True
+            sleep(0.5)
             st.sidebar.success("Login berhasil!")
         else:
             st.sidebar.error("Username atau password salah.")            
@@ -37,16 +40,13 @@ else:
         st.experimental_rerun()
 
         st.experimental_rerun()
-  
-   
-    #header
+    
+
     with st.container():
         st.subheader("Selamat datang     di SITOMB:wave:")
         st.title("Sistem Informasi Soto Bogor - SITOMB")
         st.write('''''')
 
-
-    #informasi
     with st.container():
         st.write("---")
         left_column, right_column = st.columns(2)
@@ -60,11 +60,8 @@ else:
                     dengan mi kuning, dan risol umumnya soto disajikan hanya menggunakan mi soun atau bihun.
                         """)
 
-        with right_column:
-            st_lottie(lottie_coading, height=300, key="coding")
+        
 
-
-    #foto
     Image1 = Image.open('images/sotodag.jpeg')
     Image2 = Image.open('images/soyam.jpeg')
     with st.container():
@@ -83,8 +80,8 @@ else:
             st.write('##')
             st.write(''' Soto Bogor Ayam yang terbuat dari bahan - bahan
                     Mie Basah, Bihun, Kol, Daging Ayam, Tomat, Bumbu Paon,
-                    Bawang Goreng, Daun Daunan.''')
-           
+                    Bawang Goreng, Daun Daunan.''')   
     st.write("##")
     st.write("---")
+make_sidebar()
 
