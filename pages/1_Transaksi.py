@@ -12,7 +12,7 @@ def skip_bad_lines(bad_lines):
 st.set_page_config(page_title="Transaksi", page_icon=":bar_chart:", layout="wide")
 
 st.sidebar.success("Pilih Menu Diatas ini.")
-
+make_sidebar()
 #header
 with st.container():
     st.title("Transaksi")
@@ -23,4 +23,4 @@ with st.container():
     df = df.loc[:, ~df.columns.str.contains('^None')]
     st.dataframe(df, width=10000, height=5000)
     st.write("---")
-make_sidebar()
+
