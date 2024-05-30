@@ -1,0 +1,50 @@
+﻿Tgl;Keterangan;Ref; Debit  ; Kredit 
+22-Apr-24; Kas ;;Rp1.000.000;
+;                Modal Awal ;;;Rp1.000.000
+22-Apr-24; Pembelian bahan baku ;;Rp505.000;
+;                Kas ;;;Rp505.000
+22-Apr-24; Beban Listrik ;;Rp20.000;
+;                   Kas ;;;Rp20.000
+22-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+23-Apr-24; Pembelian bahan baku ;;Rp142.000;
+;                Kas ;;;Rp142.000
+23-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+24-Apr-24; Pembelian bahan baku ;;Rp159.000;
+;                Kas ;;;Rp159.000
+24-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+25-Apr-24; Pembelian bahan baku ;;Rp229.500;
+;                Kas ;;;Rp229.500
+25-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+26-Apr-24; Pembelian bahan baku ;;Rp258.000;
+;                Kas ;;;Rp258.000
+26-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+27-Apr-24; Pembelian bahan baku ;;Rp142.000;
+;                Kas ;;;Rp142.000
+27-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+28-Apr-24; Pembelian bahan baku ;;Rp229.500;
+;                Kas ;;;Rp229.500
+28-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+29-Apr-24; Pembelian bahan baku ;;Rp350.500;
+;                Kas ;;;Rp350.500
+29-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+29-Apr-24;Beban Listrik;;Rp20.000;
+;  Kas ;;;Rp20.000
+30-Apr-24; Pembelian bahan baku ;;Rp159.000;
+;                Kas ;;;Rp159.000
+30-Apr-24; Beban Air ;;Rp60.000;
+;    Kas ;;;Rp60.000
+30-Apr-24; Beban sewa ;;Rp1.500.000;
+;       Kas ;;;Rp1.500.000
+30-Apr-24; Kas ;;Rp280.000;
+;         Penjualan ;;;Rp280.000
+30-Apr-24; Beban gaji ;;Rp1.000.000;
+;     Kas ;;;Rp1.000.000
+; Jumlah ;;Rp8.294.500;Rp8.294.500
