@@ -20,7 +20,6 @@ def login():
     if st.button("Login"):
         if username == user and password == passw :
             st.session_state["logged_in"] = True
-            sleep(0.5)
             st.sidebar.success("Login berhasil!")
         else:
             st.sidebar.error("Username atau password salah.")            
