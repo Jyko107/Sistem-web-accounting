@@ -21,3 +21,4 @@ with st.container():
     df = df.loc[:, ~df.columns.str.contains('^None')]
     st.dataframe(df, width=10000, height=1750)
     st.write("---")
+make_sidebar()
