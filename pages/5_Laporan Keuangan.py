@@ -25,7 +25,7 @@ with st.container():
     st.subheader ("Laporan Perubahan Modal")
     st.dataframe(df, width= 10000, height= 170)    
     st.write("---")
-    
+make_sidebar()    
     df = pd.read_csv("dataset/lapkeu1.csv")
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
     st.subheader ("Laporan Posisi Keuangan")
