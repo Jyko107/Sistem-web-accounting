@@ -61,5 +61,5 @@ with st.container():
     st.subheader ("8. Akun Beban Gaji")
     st.dataframe(df, width= 10000, height= 50)    
     st.write("---")
-
+make_sidebar()
     
