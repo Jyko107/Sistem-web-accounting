@@ -19,4 +19,4 @@ with st.container():
     st.subheader ("Neraca Saldo")
     st.dataframe(df, width= 10000, height= 350)    
     st.write("---")
-    
+ make_sidebar()   
