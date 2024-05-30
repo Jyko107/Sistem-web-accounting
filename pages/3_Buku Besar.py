@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from navigation import make_sidebar
 
 def skip_bad_lines(bad_lines):
 
