@@ -6,8 +6,6 @@ def skip_bad_lines(bad_lines):
 
     return [], bad_lines
 
-st.set_page_config(page_title="Buku Besar", page_icon=":bar_chart:", layout="wide")
-
 st.sidebar.success("Pilih Menu Diatas ini.")
 make_sidebar()
 #header
