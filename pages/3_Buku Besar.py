@@ -9,7 +9,7 @@ def skip_bad_lines(bad_lines):
 st.set_page_config(page_title="Buku Besar", page_icon=":bar_chart:", layout="wide")
 
 st.sidebar.success("Pilih Menu Diatas ini.")
-
+make_sidebar()
 #header
 with st.container():
     st.title("Buku Besar")
@@ -62,5 +62,5 @@ with st.container():
     st.subheader ("8. Akun Beban Gaji")
     st.dataframe(df, width= 10000, height= 50)    
     st.write("---")
-make_sidebar()
+
     
