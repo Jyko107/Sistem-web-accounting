@@ -54,9 +54,7 @@ else:
                     soto lengkap karena terdapat banyak bahan-bahan yang disajikan dalam satu mangkoknya.
                     Hal unik yang kami sediakan dari  makanan berkuah ini adalah penyajiannya yang dilengkapi
                     dengan mi kuning, dan risol umumnya soto disajikan hanya menggunakan mi soun atau bihun.
-                        """)
-
- make_sidebar()       
+                        """)   
 
     Image1 = Image.open('images/sotodag.jpeg')
     Image2 = Image.open('images/soyam.jpeg')
@@ -79,4 +77,4 @@ else:
                     Bawang Goreng, Daun Daunan.''')   
     st.write("##")
     st.write("---")
-
+make_sidebar()    
