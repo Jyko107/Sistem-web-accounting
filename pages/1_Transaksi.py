@@ -22,7 +22,7 @@ with st.container():
     
     # Debug: Check if file path is correct and file is readable
     try:
-        df = pd.read_csv("dataset/Transaksi.csv", error_bad_lines=False)
+        df = pd.read_csv("dataset/Transaksi.csv", on_bad_lines='skip')
         st.write("File read successfully.")
     except FileNotFoundError:
         st.error("File not found. Please check the file path.")
